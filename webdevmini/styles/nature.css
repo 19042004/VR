@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: url('../images/Nat\ \(1\).jpg') no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.historical-places {
+    display:flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left:25px;
+
+}
+
+.image-section {
+    width:250px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8); 
+}
+.image-section .desti-button {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-decoration: none;
+    padding: 12px 25px; 
+    font-size: 1.0em; 
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
